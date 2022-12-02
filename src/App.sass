@@ -1,0 +1,64 @@
+$display:flex
+$backgroundColor: pink
+
+body
+    color: purple
+   
+    header
+        background: $backgroundColor !important
+        display: $display
+
+        .nav-bar
+            display: $display
+            align-items: center
+            width: 100%
+            justify-content: space-between
+
+        .logo
+            color: purple
+            font-size: 2em!important
+        .nav-list
+            display: $display
+            width: 100%
+            justify-content: space-evenly
+        a
+            text-decoration: none
+            color: purple
+        
+        a:hover
+            color: white
+
+            .shoppingBasketBtn
+                color: purple
+
+    .content
+        display: $display
+        flex-flow: row wrap
+        justify-content: center
+    .productsHead
+        display: $display
+        justify-content: center
+
+    .sideBar
+        background: $backgroundColor
+        display: $display
+        
+        width: 200px
+        height: 100vh
+        align-items: center
+        padding: 2%
+        position: fixed
+
+
+    // .footer
+    //     background: white!important
+    
+    .formClient
+        margin: 10%
+
+    .aboutusContainer
+        display: $display
+        flex-direction: column
+        padding: 5%
+        align-items: center
+        
